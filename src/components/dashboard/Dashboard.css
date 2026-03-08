@@ -1,0 +1,117 @@
+/* ===== PAGE WRAPPER ===== */
+.dashboard-page {
+  min-height: 100vh;
+  background: linear-gradient(to right, #c084fc, #a78bfa); /* Lavender gradient */
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== TOPBAR ===== */
+.topbar {
+  width: 95%;
+  padding: 18px 50px;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  backdrop-filter: blur(8px);
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+
+  border-radius: 20px;
+}
+
+.topbar h4 {
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.role-badge {
+  background: white;
+  color: #6f42c1;
+  padding: 6px 14px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.logout-btn {
+  background: white;
+  color: #6f42c1;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  background: #f1f1f1;
+}
+
+/* ===== DASHBOARD AREA ===== */
+.dashboard-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 70px 20px;
+}
+
+.dashboard-inner {
+  width: 100%;
+  max-width: 1100px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  padding: 50px;
+  text-align: center;
+}
+
+.welcome-text {
+  color: white;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+/* ===== CARDS ===== */
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.dashboard-card {
+  width: 260px;
+  padding: 35px;
+  background: white;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-card h5 {
+  color: #6f42c1;
+  margin-bottom: 10px;
+}
+
+.dashboard-card p {
+  color: #555;
+  font-size: 14px;
+}

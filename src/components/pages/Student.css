@@ -1,0 +1,13 @@
+.card {
+  border-radius: 8px;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.form-label {
+  font-weight: 500;
+}
