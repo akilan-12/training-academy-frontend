@@ -61,7 +61,7 @@ Backend Repository
 
 The backend API for this project is available here:
 
-https://github.com/YOUR_USERNAME/training-academy-backend
+https://github.com/akilan-12/training-academy-backend
 
 Author
 
