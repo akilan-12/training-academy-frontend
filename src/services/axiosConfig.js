@@ -2,10 +2,7 @@ import axios from "axios";
 import {logout} from "../utils/authFetch";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:8080",
-  headers:{
-    "Content-Type":"application/json",
-  },
+  baseURL: "https://training-academy-backend.onrender.com",
 });
 
 axiosInstance.interceptors.request.use(
