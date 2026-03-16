@@ -1,68 +1,100 @@
-Training Academy Management System – Frontend
+# 🎓 Training Academy Management System – Frontend
 
-Overview
+Frontend application for the **Training Academy Management System** built using **React**.  
+This interface allows administrators and trainers to manage courses, trainers, and students through a simple and responsive UI.
 
-This is the React frontend for the Training Academy Management System.
-It provides the user interface for administrators and trainers to manage courses, trainers, and students.
+The application communicates with a **Spring Boot backend API** to perform data operations and authentication.
 
-The application communicates with a Spring Boot backend API to perform CRUD operations and handle authentication.
+---
 
-Features
+## 🚀 Overview
 
-- Role-based login (Admin / Trainer)
-- Dashboard with navigation cards
-- Manage Courses
-- Manage Trainers
-- Manage Students
-- View students assigned to trainers
-- Logout functionality
-- Responsive UI with Bootstrap
+The frontend provides a user-friendly interface to manage training academy operations including courses, trainers, and student assignments.
 
-Tech Stack
+It integrates with a backend REST API to perform CRUD operations.
 
-- React
-- React Router
-- Axios
-- Bootstrap
-- CSS
+---
 
-Project Structure
+## ✨ Features
 
+- 🔐 Role-based login (Admin / Trainer)
+- 📊 Dashboard with navigation cards
+- 📚 Manage Courses
+- 👨‍🏫 Manage Trainers
+- 👨‍🎓 Manage Students
+- 🔗 View students assigned to trainers
+- 🚪 Logout functionality
+- 📱 Responsive UI with Bootstrap
+
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ React
+- 🔀 React Router
+- 🔗 Axios
+- 🎨 Bootstrap
+- 🧩 CSS
+
+---
+
+## 📁 Project Structure
+
+```
 src/
+
 components/
 pages/
 services/
+
 App.js
 index.js
+```
 
-Setup Instructions
+---
 
-1. Clone the repository
+## ⚙️ Setup Instructions
 
+### 📥 Clone the repository
+
+```bash
 git clone https://github.com/akilan-12/training-academy-frontend.git
+```
 
-2. Navigate to project folder
+### 📂 Navigate to project folder
 
+```bash
 cd training-academy-frontend
+```
 
-3. Install dependencies
+### 📦 Install dependencies
 
+```bash
 npm install
+```
 
-4. Start the application
+### ▶️ Start the application
 
+```bash
 npm start
+```
 
 The application will run on:
 
+```
 http://localhost:3000
+```
 
-Backend Repository
+---
 
-The backend API for this project is available here:
+## 🔗 Backend Repository
+
+Backend API for this project:
 
 https://github.com/akilan-12/training-academy-backend
 
-Author
+---
 
-Akilan
+## 🌐 Live Application
+
+https://training-academy-frontend.vercel.app/login
