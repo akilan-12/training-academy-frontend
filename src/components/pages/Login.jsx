@@ -14,7 +14,7 @@ const Login=()=>{
     try{
       const token=btoa(username + ":" + password);
 
-      const res=await fetch("http://localhost:8080/auth/me",{
+      const res=await fetch("http://training-academy-backend.onrender.com/auth/me",{
         method: "GET",
         headers:{
           Authorization: "Basic "+token,
